@@ -1,0 +1,30 @@
+/* 页面切换动画样式 */
+main > section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-out;
+}
+
+/* 为页面添加一些基本样式以确保正常显示 */
+main > section:not(#home) {
+    display: none;
+    transform: translateX(100%);
+}
+
+/* 首页默认显示 */
+#home {
+    display: block;
+    transform: translateX(0);
+}
+
+/* 为所有页面内容添加一些基本样式 */
+main > section > * {
+    pointer-events: auto;
+}
+
+/* 导航栏需要保持在顶层 */
+#quick-nav {
+    position: fixed;
+    z-index: 100;
+}

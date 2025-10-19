@@ -1,0 +1,47 @@
+#quick-nav{
+	position: fixed;
+	top: 65px;
+	left: 120px;
+	
+	color: white;
+	
+	z-index: 999;
+}
+#quick-nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 30px;
+}
+#quick-nav ul li{
+	opacity: 0;
+}
+#quick-nav ul li a{
+	background: white;
+	background-size: 200% 200%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient-flow 3s ease infinite;
+}
+#quick-nav ul li a:hover{
+	background: linear-gradient(45deg, #ff6b6b, #00dcff, #eeaeee);
+	background-size: 200% 200%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradient-flow 3s ease infinite;
+}
+#home-flag{
+	position: absolute;
+	top: 18px;
+	left: 30px;
+	
+	width: 60px;
+	height: 60px;
+	
+	display: none;
+	
+	z-index: 999;
+}

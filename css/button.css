@@ -1,0 +1,19 @@
+.page-button{
+	width: auto;
+	height: 2.5rem;
+	background-color: rgba(238, 174, 238, 0.7);
+	border: none;
+	outline: none;
+	border-radius: 30px;
+	
+	margin-top: 2rem;
+	padding-left: 24px;
+	padding-right: 24px;
+	
+	font-size: 1rem;
+	
+	transition: background-color 0.1s linear;
+}
+.page-button:active{
+	background-color: rgba(238, 174, 238, 0.6);
+}
