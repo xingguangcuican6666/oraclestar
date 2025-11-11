@@ -74,3 +74,19 @@ a{
 .page img{
 	width: min(30%,256px);
 }
+
+/* ICP footer */
+.site-footer{
+	position: fixed;
+	bottom: 8px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: rgba(255,255,255,0.6);
+	z-index: 9999;
+}
+.site-footer a{
+	color: inherit;
+	text-decoration: none;
+}
