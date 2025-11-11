@@ -109,6 +109,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 			homeFlag.style.display='inline-block';
 			positionFlag.remove();
 			homeFunc();
+			loading.style.display='none'; // hide loading overlay so footer is clickable
 		},1000);
 	},1)
 });

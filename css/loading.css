@@ -1,6 +1,6 @@
 #loading{
 	width: 100%;
-	height: 100%;
+	height: 100dvh; /* dynamic height fixes nav offset issues in landscape */
 	background-color: #000;
 }
 .loading-star{

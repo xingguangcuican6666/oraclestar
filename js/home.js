@@ -30,7 +30,7 @@ export function homeFunc(){
 		item.style.opacity = '0';
 		
 		setTimeout(() => {
-			bindDampingRebound(item, 0, -30, {stiffness: 100, damping: 16, mass: 1});
+			bindDampingRebound(item, 0, (window.innerWidth > window.innerHeight ? 0 : -30), {stiffness: 100, damping: 16, mass: 1});
 			
 			item.style.transition = 'opacity 0.4s ease-out';
 			item.style.opacity = '1';

@@ -1,10 +1,9 @@
 #quick-nav{
 	position: fixed;
-	top: 65px;
-	left: 120px;
-	
+	/* Align with flag icon */
+	top: 14px;
+	left: 84px; /* 20(left) + 48(flag width) + 16(gap) */
 	color: white;
-	
 	z-index: 999;
 }
 #quick-nav ul{
@@ -35,13 +34,10 @@
 }
 #home-flag{
 	position: absolute;
-	top: 18px;
-	left: 30px;
-	
-	width: 60px;
-	height: 60px;
-	
+	top: 14px;
+	left: 20px;
+	width: 48px;
+	height: 48px;
 	display: none;
-	
 	z-index: 999;
 }
